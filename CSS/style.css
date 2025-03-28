@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body{
+    background-color:  hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Figtree";
+    }
+
+    .main-div{
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 10px 10px black;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border: 1px solid;
+    }
+
+    img{
+    border-radius: 10px;
+    width: 100%;
+    }
+
+    button {
+        background-color: hsl(47, 88%, 63%);
+        color: #000;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #e6b800;
+    }
+
+
+
+    h2:active{
+        color: yellow;
+        cursor: pointer;
+    }
+
+    #another-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    }
+
+
+    .profile-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Figtree";
+    }
+
+    .profile-container img {
+    width: 40px;
+    border-radius: 50%;
+    }
+
+    .profile-container span {
+    font-size: 16px; 
+    line-height: 1.2;
+    font-weight: 500px;
+    }
+
+    p{
+        font-size: 15px;
+    }
